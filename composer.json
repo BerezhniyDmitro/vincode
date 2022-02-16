@@ -1,0 +1,33 @@
+{
+    "name": "checkvin/vincode",
+    "description": "vincode package",
+    "autoload": {
+        "psr-4": {
+            "CheckvinVincode\\": "src/",
+            "CheckvinVincode\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "vimeo/psalm": "v4.6.*",
+        "phpstan/phpstan": "v0.12.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Berezhniy Dmitro",
+            "email": "berezhniy.d@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "scripts": {
+        "psalm": "./vendor/bin/psalm --config=psalm.xml",
+        "phpstan": "./vendor/bin/phpstan analyse src --level 7",
+        "tests": "./vendor/bin/phpunit tests"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
