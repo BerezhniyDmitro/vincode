@@ -14,7 +14,8 @@
         "phpstan/phpstan": "v0.12.*"
     },
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Berezhniy Dmitro",
