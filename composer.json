@@ -1,7 +1,7 @@
 {
     "name": "checkvin/vincode",
     "description": "vincode package",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "CheckvinVincode\\": "src/",
